@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-    - name: Checkout to main
+    - name: Pull
       uses: actions/checkout@v3
     - name: Build
       run: docker-compose up --build -d
