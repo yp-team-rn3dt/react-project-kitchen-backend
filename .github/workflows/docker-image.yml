@@ -13,4 +13,4 @@ jobs:
     - name: Pull
       uses: actions/checkout@v3
     - name: Build
-      run: docker-compose up --build -d
+      run: echo 'hello'
